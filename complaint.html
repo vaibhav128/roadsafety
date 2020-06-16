@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+       <!-- CSS-->
+    <link rel="stylesheet" href="css/sidenav.css"> 
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/info.css">
+    <link rel="stylesheet" href="css/nav.css">
+     <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/form.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Federant" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+    <title>register</title>
+    <link rel="icon" type="image/png" sizes="180x180" href="favicon/favicon.ico">
+   
+  </head>
+  <body>
+       <!--  navigation bar-->
+       <div class="top" id="top">
+        <div class="nav-1 ">
+           <div class="container ">
+           <div class="top-u" id="">
+           <img src="images/RSOF_logo.png" class="img-logo" id="logo"   alt="">
+            <h1 class="page-name py-lg-2 "  id="top-u">ROAD SAFETY OMNI FOUNDATION</h1>
+           </div>
+           </div>
+        </div>
+      </div>
+        <div class="nav-2 " id="top-b">
+            <nav class="navbar navbar-expand-lg py-0 "id="main-navbar">
+            <!-- <div class="container"> -->
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler btnn-clr" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon btnn-icon"><i class="fas fa-bars"></i></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav m-auto ">
+     <li class="nav-item  active mx-4">
+        <a class="nav-link align-item-center font-weight-bold" href="index.html">HOME </a>
+        
+      </li>
+      <li class="nav-item mx-4">
+        <a class="nav-link font-weight-bold font-weight-bold" href="#">ABOUT</a>
+      </li>
+       <li class="nav-item mx-4">
+        <a class="nav-link font-weight-bold" href="#">PROJECTS</a>
+      </li>
+       <li class="nav-item mx-4">
+        <a class="nav-link font-weight-bold" href="#">ACHIEVEMENTS</a>
+      </li>
+       <li class="nav-item mx-4">
+        <a class="nav-link font-weight-bold" href="gallery.html">GALLERY</a>
+      </li>
+      <li class="nav-item mx-4">
+        <a class="nav-link font-weight-bold" href="#">PRESS</a>
+      </li>
+       <li class="nav-item mx-4">
+        <a class="nav-link font-weight-bold" href="form.html">REGISTER</a>
+      </li>
+      <li class="nav-item mx-4">
+        <a class="nav-link font-weight-bold" href="complaint.html">COMPLAINT CELL</a>
+      </li>
+
+
+      
+     
+    </ul>
+    
+  </div>
+  <!-- </div> -->
+</nav>
+        </div>
+   <!-- form -->
+   <div>
+        
+    </div>
+    
+    
+        <div id="mainpage" class="frm">
+    
+            <center><br> <h1>Complaint Cell</h1></center><br>
+            <form method="post" class="fform">
+                <input type="text" placeholder="Name" name="name" required style="margin:8px 0;"><br>
+                <input type="tel" placeholder="Mobile Number" name="mobie_number" maxlength="10" required><br>
+                <input type="email" placeholder="Email id" name="email" required style="margin:8px 0;"><br>
+                <input type="text" placeholder="Subject" required >
+                <textarea   rows="6" placeholder="Complaint" required></textarea>
+                
+                 <input type="file" name="myFile"><br><br>
+                   
+                 
+                
+                <center>
+                <input type="submit" name="submit">
+               
+                </center>
+    
+                            <!-- </div> -->
+    
+                
+    
+                
+    
+            </form><br>
+    
+    
+    
+    
+    
+        </div>
+            
+        <script>
+            var modall = document.getElementById('myModall');
+            var btn = document.getElementById("modalltext");
+            var mainpage = document.getElementById("mainpage")
+            var span = document.getElementsByClassName("closee")[0];
+            btn.onclick = function() 
+            {
+                modall.style.display = "block";
+                mainpage.style.display = "none";
+                // foot.style.display = "none";
+
+
+            }
+            span.onclick = function() 
+            {
+                modall.style.display = "none";
+                // foot.style.display = "none";
+                mainpage.style.display = "block";
+            }
+            window.onclick = function(event) 
+            {
+                if (event.target == modall) 
+                {
+                    modall.style.display = "none";
+                mainpage.style.display = "block";
+                }
+                
+            }
+        </script>
+  
+  
+
+  
+    <!-- side nav-->
+    <div id="mySidenav" class="sidenav">
+        <a href="https://www.facebook.com/RoadSafetyOmniFoundation/?eid=ARDsrC3XYEyppGuE0TuBYqUh4zpv4HRjkm4LOrdtPta5gEg-Y_0Ji9YmfEolCfdWcyYi5VFZG43Y-u4S" id="facebook" target="_blank">facebook<x style="float:right;font-size:20px;"><i class="fab fa-facebook-square"></i></x></a>
+        <a href="#" id="gmail">mail<x style="float:right;font-size:20px;"><i class="far fa-envelope"></i></x></a>
+        <a href="https://twitter.com/rsofbd2012?lang=en" target="_blank" id="twitter">twitter<x style="float:right;font-size:20px;"><i class="fab fa-twitter"></i></x></a>
+        
+</div>
+     <!--  footer     -->
+    <footer class="foot"  id="foot">
+        <div class="container" >
+            <div class="row justify-content-center justify-content-md-between">
+                <div class=" col-3-lg mb-5 mb-lg-0">
+                    <h2 id="footercompany" class="mb-5">ROAD SAFETY  <br /> OMNI FOUNDATION</h2>
+
+                    <p class="lead  mb-0 footeraddress"> FCA193/A Bhatia Colony,       <br />
+                        Milk Plant road, Ballabgarh,   <br />
+                        Faridabad, Haryana, 121004</p>        <br />
+
+
+                    <p class="contactdetails">
+                        <span class="font-weight-bold text-light">Phone:</span> +91-9643283909 <br/>
+                        <span class="font-weight-bold text-light">Email:</span>  rsofbd2012@gmail.com
+                    </p>
+
+                </div>
+
+                <div class="col-3-lg mb-5 mb-lg-0 footercontact">
+                        <h4 class="text-white mb-3">QUICK CONTACT</h4>
+                        
+                        <form action="">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="far fa-id-badge"></i></span>
+                                </div>
+                                <input type="text" aria-label="Full name" class="form-control" placeholder="Full Name">
+                            
+                            </div>
+    
+                            <div class="input-group mb-3">
+                                <div class="input-group-append">
+                                    <span class="input-group-text" id="basic-addon2"><i class="far fa-envelope"></i></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Enter Your Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            </div>
+                            
+                            <div class="input-group">
+                                
+                                <textarea class="form-control" aria-label="With textarea" placeholder="Enter Your Message"></textarea>
+                            </div>
+    
+                            <button class="btn footerbutton mt-2">Send Message</button>
+                         </form>   
+                    </div>
+
+                <div class=" col-3-lg mb-5 mb-lg-0 footernewsletter">
+                    <!-- <h4 class="text-white mb-3">Newsletter Signup</h4>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Enter Your Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                          <button class="btn newsletter-button" type="button" id="button-addon2">Subscribe</button>
+                        </div>
+                    </div> -->
+                    
+                    <div id="map"></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+    <div class="copy">
+        &copy; 2018, All Rights Reserved by OMNI Foundation
+    </div>
+      <script src="js/web.js"></script>
+      <script>
+            // Initialize and add the map
+            function initMap() {
+              // The location of Location
+              var location = {lat: -25.344, lng: 131.036};
+              // The map, centered at Location
+              var map = new google.maps.Map(
+                  document.getElementById('map'), {zoom: 4, center: location});
+              // The marker, positioned at Location
+              var marker = new google.maps.Marker({position: location, map: map});
+            }
+    </script>
+                <!--Load the API from the specified URL
+                * The async attribute allows the browser to render the page while the API loads
+                * The key parameter will contain your own API key (which is not needed for this tutorial)
+                * The callback parameter executes the initMap() function
+                -->
+                <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
+                </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="js/web.js"></script>
+</body>
+</html>

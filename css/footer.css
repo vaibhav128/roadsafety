@@ -1,0 +1,55 @@
+footer {
+    background: #2F363F;
+}
+.footer{
+    height: 400px;
+}
+
+#footercompany {
+    font-weight: 300;
+    color: white;
+}
+
+
+.footeraddress {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.contactdetails {
+    color: #DAE0E2;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C3335;
+    color: white;
+    height: 9vh;
+}
+
+.foot {
+    padding-top: 1.5rem;
+}
+
+.footernewsletter h4, .footercontact h4 {
+    font-weight: 300;
+    
+}
+
+.newsletter-button {
+    background-color: #3498DB;
+    color: white;
+}
+
+.footerbutton {
+  
+    color: white;
+    background-color: #3498DB;
+}
+
+#map {
+    height: 250px;  /* The height is 400 pixels */
+    width: 250px;  /* The width is the width of the web page */
+   }

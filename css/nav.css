@@ -1,0 +1,202 @@
+.top{
+     transition: 0.6s; /* Adds a transition effect when the padding is decreased */
+/*  position: fixed;  Sticky/fixed navbar */
+  width: 100%;
+    z-index: 999;
+
+}
+#top-u{
+    transition: 0.4s;
+/*    height: 50px;*/
+}
+.nav-1{
+    background-color: #EAF0F1;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 1px 2px 15px gray;
+    
+/*    height: 150px;*/
+    
+}
+#top-b{
+    overflow: hidden;
+}
+.sticky{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+    z-index: 99999;
+}
+.navbar{
+    background-color: #2475B0;
+/*    height: 90px;*/
+}
+.page-name{
+/*    float: right;*/
+/*    display: flex;*/
+/*    justify-content: flex-end;*/
+/*    text-align: right;*/
+    overflow: hidden;
+    
+    font-size: 350%;
+/*    border: 1px solid red;*/
+
+}
+.top-u{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    
+}
+.btnn-clr{
+/*    background-color: white;*/
+    border: 1px solid black;
+}
+.navbar-toggler-icon{
+    color: black;
+    z-index: 9077;
+/*    background-color: red;*/
+}
+#main-navbar a {
+    color: white;
+    height: 100%;
+    font-size: 1.2rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#main-navbar a:hover {
+    color:white;
+/*    border: 1px solid ;*/
+    background-color: #f5ab35;
+}
+/* .test
+{
+    height: 138px;
+    position: absolute;
+    top: 0;
+    left: 16%;
+    z-index: 3;
+} */
+/* .effect{
+    height: 64px;
+    position: absolute;
+    top:54%;
+    left: 18%;
+    z-index: 3;
+    
+} */
+
+.fas{
+    font-weight: 40px;
+}
+.img-logo{
+  height: 110px; 
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 9%;*/
+    z-index: 1;
+    transition: 0.4s;
+    
+}
+/* .top-u img{
+    box-shadow:         12px 12px 29px #555;
+
+} */
+
+/*
+@media (max-width:767px){
+   #logo{
+  height: 90px; 
+    position: absolute;
+    top: 4%;
+    left: 1%;
+    z-index: 3;
+       
+} 
+*/
+/*    #top-u{*/
+/*    float: right;*/
+/*
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    font-size: 1.9rem;
+*/
+/*    border: 1px solid red;*/
+
+/*}*/
+/*}*/
+
+/*
+@media(min-width:768px) and (max-width:1200px){
+    #logo{
+  height: 100px; 
+    position: absolute;
+    top: 1%;
+    left: 4%;
+    z-index: 3;
+       
+} 
+*/
+/*    #top-u{*/
+/*    float: right;*/
+/*
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    font-size: 3rem;
+*/
+/*    border: 1px solid red;*/
+
+/*}*/
+/*}*/
+
+/*
+@media(min-width:1200px) and (max-width:1400px){
+    #logo{
+   
+    position: absolute;
+    top: 0;
+    left: 1%;
+    z-index: 3;
+       
+} 
+}
+*/
+.top-u h1{
+    font-size: 350%;
+}
+@media(max-width:767px) {
+    .top-u h1{
+        font-size: 120%;
+    }
+    /* .cl2{
+        font-size: 120%; 
+    }
+    .cl2a{
+        font-size: 100%;
+    } */
+}
+@media(max-width:767px) and (max-width:1200px) {
+    .top-u h1{
+        font-size: 150%;
+    }
+    /* .cl1{
+        font-size: 110%;
+    }
+    .cl1a{
+        font-size: 150%;
+    } */
+
+
+}
+/* .cl3{
+    font-size: 350%;
+} */
+
+
+.nav-item{
+    text-align: center;
+}
+

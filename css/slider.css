@@ -1,0 +1,17 @@
+.sliderr img{
+    height: 550px;
+}
+.slider{
+    padding-top: 0px;
+}
+@media(max-width:767px) {
+    .slider img{
+        height: 20%;
+    } 
+}
+@media(max-width:767px) and (max-width:1200px) {
+    .slider img{
+        height: 20%;
+    }
+}
+

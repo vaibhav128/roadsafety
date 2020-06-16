@@ -1,0 +1,36 @@
+#mySidenav a {
+    position: fixed;
+    left: -90px;
+    transition: 0.2s;
+    padding: 15px;
+    width: 130px;
+    text-decoration: none;
+    font:normal 20px calibri;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    
+}
+
+#mySidenav a:hover {
+    left: 0;
+    /* border-radius:50%; */
+}
+
+#facebook {
+    top: 300px;
+    background-color:  #3B5998;
+}
+
+#gmail {
+    top: 370px;
+    background-color: #c71610;
+}
+
+#twitter {
+    top: 440px;
+    background-color: #1DA1F2;
+}
+
+
+
+
